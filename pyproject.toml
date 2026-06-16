@@ -1,0 +1,12 @@
+[project]
+name = "comfyui-anima-diffusers-lora"
+description = "Transparent ComfyUI patch to load Diffusers-format LoRAs for Anima models."
+version = "0.9.0"
+
+[project.urls]
+Repository = "https://github.com/FuouM/ComfyUI-Anima-Diffusers-LoRA"
+
+[tool.comfy]
+PublisherId = "fuoumarinas"
+DisplayName = "ComfyUI Anima Diffusers LoRA"
+Icon = ""
