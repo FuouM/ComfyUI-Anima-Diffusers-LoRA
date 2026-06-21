@@ -12,6 +12,7 @@ Diffusers and training frameworks like OneTrainer export Anima LoRAs using key s
 
 * **Zero Workflow Impact:** No new node blocks are added to your editor. Keep using your standard LoRA loading workflows.
 * **Dual Format Support:** Automatically detects and loads both converted (ComfyUI-native) and original Diffusers-format LoRAs.
+* **LoKr & LoHa Support:** Supports Anima LoKr and LoHa adapters trained with OneTrainer (via Diffusers format). As noted in [PR #14182](https://github.com/Comfy-Org/ComfyUI/pull/14182#issuecomment-4760301522), the upstream PR does not cover LoKr/LoHa — this node fills that gap.
 * **Zero Inference Impact:** Key translation occurs entirely during the LoRA loading/binding phase, keeping model execution fully native and fast.
 
 ## Installation
